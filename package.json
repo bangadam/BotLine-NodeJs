@@ -1,0 +1,16 @@
+{
+  "name": "muslimbot",
+  "version": "1.0.0",
+  "description": "bot for muslim",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "bangadam.dev",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^4.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
