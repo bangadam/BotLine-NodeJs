@@ -4,13 +4,16 @@
   "description": "bot for muslim",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "node app.js"
   },
   "author": "bangadam.dev",
   "license": "ISC",
   "dependencies": {
     "@line/bot-sdk": "^4.0.0",
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "read-chunk": "^2.1.0",
+    "request": "^2.83.0"
   }
 }
