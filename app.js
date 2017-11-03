@@ -84,7 +84,11 @@ app.post('/webhook', line.middleware(config), (req, res) => {
   
 });
 
-
-app.listen(3001, function() {
-  console.log('server listning on port 3000');
-})
+// local
+// app.listen(3001, function() {
+//   console.log('server listning on port 3000');
+// })
+// server
+app.listen(process.env.PORT, process.env.IP, function() {
+  console.log('server is running');
+});
