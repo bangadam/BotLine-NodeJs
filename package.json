@@ -12,7 +12,9 @@
     "@line/bot-sdk": "^4.0.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "moment": "^2.19.1",
+    "google-tts-api": "0.0.2",
+    "lodash.foreach": "^4.5.0",
+    "lodash.map": "^4.6.0",
     "read-chunk": "^2.1.0",
     "request": "^2.83.0"
   }
