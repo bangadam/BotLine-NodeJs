@@ -10,9 +10,9 @@ const express = require('express'),
 
 
 var config = {
-  channelId: '1543888855',
-  channelAccessToken: 'XVuY8V/SdXoJba3Seyi3yFi2vK4fJTjQTSEjD5R69zQ7wn7zRM6ALxFZIMQdBearV+1BHaBPK2Cx8QJttLgKQccnKCyrpyIT8heGxvgK3OCp32KOLzpoU6ZA/ypcBtgSmUDpNWZBTSn3UuMR0Da4VgdB04t89/1O/w1cDnyilFU=',
-  channelSecret: '4efbc8c31e8609706dd6b7d59bce3cc9',
+  channelId: '1545154115',
+  channelAccessToken: 'oyDDWACzEU3sXdMI8gdCzqE4VIFZNU4StUMDPEXUVrsCuorqneN1CA2nw77JmzOJLhGL5bgPJ0rp0yL7/4KGVYjRlELvoQPgDWrMwaHszTfsUyQwWEidUnQEATerLM7VAqm0/KqS19G1H/t2yYhhrgdB04t89/1O/w1cDnyilFU=',
+  channelSecret: 'cb58734e82606a0f801f4c6ac184438e',
   verify: true
 };
 
