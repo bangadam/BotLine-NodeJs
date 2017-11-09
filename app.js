@@ -103,6 +103,11 @@ app.post('/webhook', line.middleware(config), (req, res) => {
         type: "text",
         text: "Surah :"+data.data.surah.englishName + "\n Ayat : "+ayah+ " \n\n"+data.data.text
       });
+      client.replyMessage(event.replyToken, {
+        type: "audio",
+        originalContentUrl: "http://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/262",
+        duration: 240000
+      });
     });
   }else {
     const message = client.replyMessage(event.replyToken, {
