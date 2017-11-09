@@ -105,7 +105,7 @@ app.post('/webhook', line.middleware(config), (req, res) => {
       });
       client.replyMessage(event.replyToken, {
         type: "audio",
-        originalContentUrl: "http://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/262",
+        originalContentUrl: "https://cdn.alquran.cloud/media/audio/ayah/ar.alafasy/262",
         duration: 240000
       });
     });
